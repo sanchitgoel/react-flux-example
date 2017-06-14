@@ -1,0 +1,28 @@
+{
+  "name": "FoodReport",
+  "version": "1.0.0",
+  "description": "Food Reports from the USDA National Nutrient Database",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "sanchit goel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "es6-promise": "^4.1.0",
+    "flux": "^3.1.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
